@@ -1,0 +1,18 @@
+{
+  "name": "inuksuk",
+  "version": "0.0.1",
+  "description": "REPL and editor for cairn",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape **/*.test.js | faucet"
+  },
+  "author": "Jason Polhemus <urtopia@tuta.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "faucet": "^0.0.1",
+    "tape": "^5.2.2"
+  }
+}
